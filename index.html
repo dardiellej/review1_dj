@@ -1,34 +1,23 @@
 <!--Author: DJ-->
-<!--Date:09/20/2022-->
+<!--Date:19/16/2022-->
 <!--COurse: CPTR 245-->
-<!--Assignment: Review for Exam 1-->
+<!--Assignment: Superhero Update 1.1-->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width" name="viewport" />
     <title>My Favorite Superhero</title>
-    <style type="text/css">
-      h1 {
-        color: #3f2503;
-        font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-      }
-      h2 {
-        color: #3f2503;
-        font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-      }
-      body {
-        background-color: #d2b48c;
-        font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>My Favorite Superhero</h1>
-    <h2>By: DJ</h2>
-    <img src="images/doctor_strange.jpg" />
+    <h1>
+      My Favorite Superhero <br />
+      By: DJ
+    </h1>
+    <img src="images/doctor_strange.jpg" alt="Doctor Strange" class="center" />
     <p>
       My favorite superhero is Marvel's <strong>Doctor Strange</strong> played
       by Benedict Cumberbatch.
@@ -58,18 +47,22 @@
       >Click here to purchase the first Doctor Strange Movie!</a
     >
     <p>These are all the movies Doctor Strange Makes an apperance:</p>
-    <ol>
-      <li>Doctor Strange (<em>2016</em>)</li>
-      <li>Thor: Ragnarok (<em>2017</em>)</li>
-      <li>Avengers: Infinity War (<em>2018</em>)</li>
-      <li>Avengers: Endgame (<em>2019</em>)</li>
-      <li>Spider-Man: No Way Home (<em>2021</em>)</li>
-      <li>Doctor Strange in the Multiverse of Madness (<em>2022</em>)</li>
-    </ol>
+
+    <!--This is where I used a class attribute-->
+    <div class="movies">
+      <ol>
+        <li>Doctor Strange (<em>2016</em>)</li>
+        <li>Thor: Ragnarok (<em>2017</em>)</li>
+        <li>Avengers: Infinity War (<em>2018</em>)</li>
+        <li>Avengers: Endgame (<em>2019</em>)</li>
+        <li>Spider-Man: No Way Home (<em>2021</em>)</li>
+        <li>Doctor Strange in the Multiverse of Madness (<em>2022</em>)</li>
+      </ol>
+    </div>
     <hr />
     <p>
-      The enhancements I added were font color, background color, font change,
-      line separations, and bolding.
+      In this assignment, I learned how to efficiently put all different
+      attributes in a css stylesheet.
     </p>
   </body>
 </html>

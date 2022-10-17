@@ -1,0 +1,27 @@
+h1 {
+  color: #3f2503;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  line-height: 1.9em;
+  border-color: #3f2503;
+  border-width: 4px;
+  border-style: double;
+  padding: 25px;
+  padding-left: 80px;
+  margin: 30px;
+  text-align: center;
+}
+h2 {
+  color: #3f2503;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+body {
+  background-color: #d2b48c;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: medium;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: dashed;
+}
+.movies {
+  text-decoration: underline;
+}
